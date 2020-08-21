@@ -1,0 +1,22 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<br><br>
+<div class="container">
+    <div class="container">
+        <h1>My Dummy Quora Application</h1>
+        <hr></hr>
+        <br>
+        <h2>App statistics</h2>
+        <p>App has the following record counts:</p>
+        <ul>
+          <li><strong>Writers:</strong> {{ num_writers }}</li>
+          <li><strong>Questions:</strong> {{ num_questions }}</li>
+          <li><strong>Answers:</strong> {{ num_answers }}</li>
+          <li><strong>Comments:</strong> {{ num_comments }}</li>
+        </ul>
+     </div>
+    </div>
+
+  
+{% endblock %}
